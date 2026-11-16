@@ -1,0 +1,137 @@
+{
+  "active": true,
+  "externalReferenceCode": "PublicationItem",
+  "label": {
+    "es_ES": "Publication Item"
+  },
+  "pluralLabel": {
+    "es_ES": "Publication Items"
+  },
+  "name": "PublicationItem",
+  "scope": "company",
+  "portlet": false,
+  "panelCategoryKey": "",
+  "titleObjectFieldName": "entryLabel",
+  "objectFields": [
+    {
+      "DBType": "String",
+      "businessType": "Text",
+      "indexed": true,
+      "indexedAsKeyword": false,
+      "label": {
+        "es_ES": "Publication"
+      },
+      "name": "publication",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "DBType": "String",
+      "businessType": "Text",
+      "indexed": true,
+      "indexedAsKeyword": false,
+      "label": {
+        "es_ES": "Item Action"
+      },
+      "name": "itemAction",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "DBType": "String",
+      "businessType": "Text",
+      "indexed": true,
+      "indexedAsKeyword": false,
+      "label": {
+        "es_ES": "Item Status"
+      },
+      "name": "itemStatus",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "DBType": "String",
+      "businessType": "Text",
+      "indexed": true,
+      "indexedAsKeyword": false,
+      "label": {
+        "es_ES": "Object Definition ID"
+      },
+      "name": "objectDefinitionId",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "DBType": "String",
+      "businessType": "Text",
+      "indexed": true,
+      "indexedAsKeyword": false,
+      "label": {
+        "es_ES": "Source Group ID"
+      },
+      "name": "sourceGroupId",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "DBType": "String",
+      "businessType": "Text",
+      "indexed": true,
+      "indexedAsKeyword": false,
+      "label": {
+        "es_ES": "Source Entry ID"
+      },
+      "name": "sourceEntryId",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "DBType": "String",
+      "businessType": "Text",
+      "indexed": true,
+      "indexedAsKeyword": false,
+      "label": {
+        "es_ES": "Entry ERC"
+      },
+      "name": "entryERC",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "DBType": "String",
+      "businessType": "Text",
+      "indexed": true,
+      "indexedAsKeyword": false,
+      "label": {
+        "es_ES": "Entry Label"
+      },
+      "name": "entryLabel",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "DBType": "String",
+      "businessType": "Text",
+      "indexed": true,
+      "indexedAsKeyword": false,
+      "label": {
+        "es_ES": "Target Group ID"
+      },
+      "name": "targetGroupId",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "DBType": "Clob",
+      "businessType": "LongText",
+      "indexed": true,
+      "indexedAsKeyword": false,
+      "label": {
+        "es_ES": "Message"
+      },
+      "name": "message",
+      "required": false,
+      "type": "Clob"
+    }
+  ]
+}
